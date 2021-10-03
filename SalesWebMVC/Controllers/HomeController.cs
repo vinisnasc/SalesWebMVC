@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using SalesWebMVC.Models.ViewModels;
 
 namespace SalesWebMVC.Controllers
 {
@@ -26,7 +27,6 @@ namespace SalesWebMVC.Controllers
         public IActionResult About()
         {
             ViewData["Message"] = "Projeto de estudo de criação de MVC's";
-            ViewData["EMail"] = "Para mais informações, me contate: vini.souza00@gmail.com";
 
             return View();
         }
